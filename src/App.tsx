@@ -24,11 +24,15 @@ interface Status {
 
 function App() {
   const [status, setStatus] = useState<Status>({});
+  const [mixedContentError, setMixedContentError] = useState(false);
+  const [sessionOpen, setSessionOpen] = useState(false);
 
   useEffect(() => {
     const connection = new autobahn.Connection({ url, realm });
 
     connection.onopen = _session => {
+      setMixedContentError(false);
+      setSessionOpen(true);
       session = _session;
       console.log("CONNECTED to \nurl: " + url + " \nrealm: " + realm);
       // For testing:
@@ -46,6 +50,11 @@ function App() {
     // connection closed, lost or unable to connect
     connection.onclose = (reason, details) => {
       console.error("CONNECTION_CLOSE", { reason, details });
+      if (reason === "unsupported") {
+        // This error may be caused by mixed-content restrictions
+        setMixedContentError(true);
+      }
+      setSessionOpen(false);
       return false;
     };
 
@@ -58,7 +67,6 @@ function App() {
     try {
       setStatus({ updating: "Updating..." });
 
-      if (!session) await new Promise(r => setTimeout(r, 3000));
       if (!session) throw Error("Session is not open");
 
       const res = await session
@@ -80,6 +88,29 @@ function App() {
 
   return (
     <div>
+      {mixedContentError && (
+        <div className="card">
+          <div>
+            You must allow mixed content to communicate with your DAppNode's
+            HTTP endpoint
+          </div>
+          <div>
+            How to allow mixed content in{" "}
+            <a href="https://stackoverflow.com/questions/18321032/how-to-get-chrome-to-allow-mixed-content">
+              Chrome
+            </a>
+            {", "}
+            <a href="https://support.mozilla.org/en-US/kb/mixed-content-blocking-firefox">
+              Firefox
+            </a>
+            {", "}
+            <a href="https://docs.adobe.com/content/help/en/target/using/experiences/vec/troubleshoot-composer/mixed-content.html">
+              others
+            </a>{" "}
+          </div>
+        </div>
+      )}
+
       <img
         src={status.updating ? logoAnimation : logo}
         className={`logo ${
@@ -97,7 +128,10 @@ function App() {
       <p className="title">DAppNode core updater</p>
 
       {!status.success && (
-        <button onClick={updateCore} disabled={Boolean(status.updating)}>
+        <button
+          onClick={updateCore}
+          disabled={Boolean(status.updating || !sessionOpen)}
+        >
           UPDATE
         </button>
       )}
