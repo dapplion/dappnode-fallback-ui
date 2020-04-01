@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8aa480b4e48ca83fd6a9fe9accbca3de",
+    "revision": "a58ffe50b1aede7ae3d6fa4cd902ca8b",
     "url": "/dappnode-fallback-ui/index.html"
   },
   {
-    "revision": "c69b218d669a0629653d",
-    "url": "/dappnode-fallback-ui/static/css/main.b7ad9d7b.chunk.css"
+    "revision": "28e02a8d194808eb3602",
+    "url": "/dappnode-fallback-ui/static/css/main.31dafb1e.chunk.css"
   },
   {
     "revision": "88bac098d2af84870479",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dappnode-fallback-ui/static/js/2.ebafc3c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c69b218d669a0629653d",
+    "revision": "28e02a8d194808eb3602",
     "url": "/dappnode-fallback-ui/static/js/main.e424baca.chunk.js"
   },
   {

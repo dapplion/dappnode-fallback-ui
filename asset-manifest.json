@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dappnode-fallback-ui/static/css/main.b7ad9d7b.chunk.css",
+    "main.css": "/dappnode-fallback-ui/static/css/main.31dafb1e.chunk.css",
     "main.js": "/dappnode-fallback-ui/static/js/main.e424baca.chunk.js",
     "main.js.map": "/dappnode-fallback-ui/static/js/main.e424baca.chunk.js.map",
     "runtime-main.js": "/dappnode-fallback-ui/static/js/runtime-main.f457f343.js",
@@ -8,16 +8,16 @@
     "static/js/2.ebafc3c9.chunk.js": "/dappnode-fallback-ui/static/js/2.ebafc3c9.chunk.js",
     "static/js/2.ebafc3c9.chunk.js.map": "/dappnode-fallback-ui/static/js/2.ebafc3c9.chunk.js.map",
     "index.html": "/dappnode-fallback-ui/index.html",
-    "precache-manifest.f73ab4043a87f9e802228bfe530ca54b.js": "/dappnode-fallback-ui/precache-manifest.f73ab4043a87f9e802228bfe530ca54b.js",
+    "precache-manifest.59dbe425a75ba8f145a551b12f8982d9.js": "/dappnode-fallback-ui/precache-manifest.59dbe425a75ba8f145a551b12f8982d9.js",
     "service-worker.js": "/dappnode-fallback-ui/service-worker.js",
-    "static/css/main.b7ad9d7b.chunk.css.map": "/dappnode-fallback-ui/static/css/main.b7ad9d7b.chunk.css.map",
+    "static/css/main.31dafb1e.chunk.css.map": "/dappnode-fallback-ui/static/css/main.31dafb1e.chunk.css.map",
     "static/js/2.ebafc3c9.chunk.js.LICENSE.txt": "/dappnode-fallback-ui/static/js/2.ebafc3c9.chunk.js.LICENSE.txt",
     "static/media/dappNodeAnimation.gif": "/dappnode-fallback-ui/static/media/dappNodeAnimation.e73c6e35.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.f457f343.js",
     "static/js/2.ebafc3c9.chunk.js",
-    "static/css/main.b7ad9d7b.chunk.css",
+    "static/css/main.31dafb1e.chunk.css",
     "static/js/main.e424baca.chunk.js"
   ]
 }
