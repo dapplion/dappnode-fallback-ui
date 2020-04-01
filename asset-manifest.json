@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dappnode-fallback-ui/static/css/main.11cb5030.chunk.css",
+    "main.js": "/dappnode-fallback-ui/static/js/main.a3ba18b0.chunk.js",
+    "main.js.map": "/dappnode-fallback-ui/static/js/main.a3ba18b0.chunk.js.map",
+    "runtime-main.js": "/dappnode-fallback-ui/static/js/runtime-main.f457f343.js",
+    "runtime-main.js.map": "/dappnode-fallback-ui/static/js/runtime-main.f457f343.js.map",
+    "static/js/2.4a9581d8.chunk.js": "/dappnode-fallback-ui/static/js/2.4a9581d8.chunk.js",
+    "static/js/2.4a9581d8.chunk.js.map": "/dappnode-fallback-ui/static/js/2.4a9581d8.chunk.js.map",
+    "index.html": "/dappnode-fallback-ui/index.html",
+    "precache-manifest.bc3b81d7aa6a089226b359705e960af8.js": "/dappnode-fallback-ui/precache-manifest.bc3b81d7aa6a089226b359705e960af8.js",
+    "service-worker.js": "/dappnode-fallback-ui/service-worker.js",
+    "static/css/main.11cb5030.chunk.css.map": "/dappnode-fallback-ui/static/css/main.11cb5030.chunk.css.map",
+    "static/js/2.4a9581d8.chunk.js.LICENSE.txt": "/dappnode-fallback-ui/static/js/2.4a9581d8.chunk.js.LICENSE.txt",
+    "static/media/dappNodeAnimation.gif": "/dappnode-fallback-ui/static/media/dappNodeAnimation.e73c6e35.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f457f343.js",
+    "static/js/2.4a9581d8.chunk.js",
+    "static/css/main.11cb5030.chunk.css",
+    "static/js/main.a3ba18b0.chunk.js"
+  ]
+}
