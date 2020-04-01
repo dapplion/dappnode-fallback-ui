@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dappnode-fallback-ui/precache-manifest.bc3b81d7aa6a089226b359705e960af8.js"
+  "/dappnode-fallback-ui/precache-manifest.f73ab4043a87f9e802228bfe530ca54b.js"
 );
 
 self.addEventListener('message', (event) => {

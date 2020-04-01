@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc443f5ec9d95126ff7aadc34729a07c",
+    "revision": "8aa480b4e48ca83fd6a9fe9accbca3de",
     "url": "/dappnode-fallback-ui/index.html"
   },
   {
-    "revision": "cb561085ab57c2e7392b",
-    "url": "/dappnode-fallback-ui/static/css/main.11cb5030.chunk.css"
+    "revision": "c69b218d669a0629653d",
+    "url": "/dappnode-fallback-ui/static/css/main.b7ad9d7b.chunk.css"
   },
   {
-    "revision": "2c9065920d0fa3d2a38e",
-    "url": "/dappnode-fallback-ui/static/js/2.4a9581d8.chunk.js"
+    "revision": "88bac098d2af84870479",
+    "url": "/dappnode-fallback-ui/static/js/2.ebafc3c9.chunk.js"
   },
   {
     "revision": "346a6e8bff0a06e27b4d2e4150ab7a2b",
-    "url": "/dappnode-fallback-ui/static/js/2.4a9581d8.chunk.js.LICENSE.txt"
+    "url": "/dappnode-fallback-ui/static/js/2.ebafc3c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb561085ab57c2e7392b",
-    "url": "/dappnode-fallback-ui/static/js/main.a3ba18b0.chunk.js"
+    "revision": "c69b218d669a0629653d",
+    "url": "/dappnode-fallback-ui/static/js/main.e424baca.chunk.js"
   },
   {
     "revision": "b774f4babf0d8a0326e4",
