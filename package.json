@@ -1,7 +1,7 @@
 {
   "name": "dappnode-fallback-ui",
   "version": "0.1.0",
-  "homepage": "https://dapplion.github.io/dappnode-fallback-ui",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -41,5 +41,6 @@
   },
   "devDependencies": {
     "@types/autobahn": "^18.10.0"
-  }
+  },
+  "license": "MIT"
 }
