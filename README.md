@@ -8,4 +8,4 @@ Different access points:
 
 - HTTPS alternatives, note that you will have to enable cross-content to connect to your DAppNode's HTTP endpoint
   - From public IPFS gateway: http://ipfs.io/ipfs/QmZ79RyRwengkKHN2vpmM16kxMmCqgZGezRre1eYVh8dmB/
-  - From Github pages: https://dapplion.github.io/dappnode-fallback-ui/
+  - From Github pages: https://dappnode.github.io/fallback-core-update/
