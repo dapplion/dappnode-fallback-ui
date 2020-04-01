@@ -40,7 +40,8 @@
     ]
   },
   "devDependencies": {
-    "@types/autobahn": "^18.10.0"
+    "@types/autobahn": "^18.10.0",
+    "gh-pages": "^2.2.0"
   },
   "license": "MIT"
 }
